@@ -39,6 +39,16 @@ For a detailed explanation of the meaning of each command term see the appropria
 
     x_pbc = x - floor(x / xbox_size) * xbox_size
 
-Resuts are printed in files ```MSD.dat``` and ```PRO.dat``` for the lipid MSD map and the Protein position map, respectively. 
+Resuts are printed in files ```MSD.dat``` for the lipid MSD map, and and ```PRO.dat``` for the grid mapped protein atoms. 
+
+A postcript and a TIFF figure can be generated running these commands at the Figure directory:
+
+    gnuplot gnuplot.plt
+    convert -density 300 MAP.ps -geometry 900x900 -rotate 90 MAP.tiff
+
+## Screenshot
+
+![MAP.tiff](Figure/MAP.tiff)
+    
     
 
