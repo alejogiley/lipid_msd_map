@@ -4,15 +4,15 @@ msd.tcl is a script for [VMD](http://www.ks.uiuc.edu/Research/vmd/) that calcula
 
 ## Directory tree
 
-swarm writes everything in /spin1/swarm, under a user-specific directory:
+msd.tcl writes everything in Example/, under a relative internal path:
 
 ```
-/spin1/swarm/user/
-├── 4506756 -> /spin1/swarm/user/YMaPNXtqEF
-└── YMaPNXtqEF
-    ├── cmd.0
-    ├── cmd.1
-    ├── cmd.2
-    ├── cmd.3
-    └── swarm.batch
+/msd_map/
+├── Example
+    ├── protein_unwrap.gro  --> coord of the protein at time 0.
+    ├── leaflet0_unwrap.gro --> coord of the upper leaflet at time 0.
+    └── leaflet0_unwrap.trr --> traj of lipids.
+└── Figure
+    ├── gnuplot.plt --> gnuplot script.
+    └── palette.pal --> color palette.
 ```
