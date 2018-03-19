@@ -39,6 +39,6 @@ For a detailed explanation of the meaning of each command term see the appropria
 
     x_pbc = x - floor(x / xbox_size) * xbox_size
 
-
+Resuts are printed in files ```MSD.dat``` and ```PRO.dat``` for the lipid MSD map and the Protein position map, respectively. 
     
 
