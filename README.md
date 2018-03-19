@@ -31,3 +31,9 @@ The script should be run as:
 
 The trajectory must not be wrapped! You must check before running. 
 
+The ```diffusion_cofficient``` tool is run internally with the following options, e.g.:
+
+    diffusion_coefficient -selection "name PO4 and resid 455" -msd range -interval_from 1 -interval_to 10 -interval_stride 1 -from 2 -to 5 -step 1 -alongz 0 -remove_drift 0
+
+for a detailed explanation of the meaning of each command term see the appropriate [documentation](https://github.com/tonigi/vmd_diffusion_coefficient/blob/master/doc/README.md).
+
