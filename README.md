@@ -22,3 +22,9 @@ msd.tcl writes everything on the main directory, relative file path are used in 
     ├── gnuplot.plt --> gnuplot script.
     └── palette.pal --> color palette.
 ```
+
+## Usage
+
+The script should be run as:
+
+    vmd -dispdev text -e msd.tcl
