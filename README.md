@@ -28,3 +28,6 @@ msd.tcl writes everything on the main directory, relative file path are used in 
 The script should be run as:
 
     vmd -dispdev text -e msd.tcl
+
+The trajectory must not be wrapped! You must check before running. 
+
