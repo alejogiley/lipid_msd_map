@@ -48,7 +48,7 @@ A postcript and a PNG figure can be generated running these commands at the Figu
 
 ## Screenshot
 
-The black contour line indicates the protein atoms. The box dimensions are 30 x 30 ```nm```. A grid of 0.3 x 0.3 ```nm``` bins was used to map the lipids MSD. The x-axis (and y-axis) range is 6-to-24 ```nm```. MSD (colorbar) is in units of ```nm^2```
+The black contour line indicates the protein atoms. The box dimensions are 30 x 30 nm. A grid of 0.3 x 0.3 nm bins was used to map the lipids MSD. The x-axis (and y-axis) range is 6-to-24 nm. MSD (colorbar) is in units of nm².
 
 ![MAP.png](Figure/MAP.png)
     
