@@ -20,7 +20,7 @@ set binsize 3
 set stride  10
 # set windows
 set wind1   2
-set wind2   4
+set wind2   5
 # set step between windows
 set step    1
 # set box sizes
@@ -61,7 +61,7 @@ for {set i 0} {$i < [expr $frames-$stride]} {incr i $stride} {
 
 		set msd [diffusion_coefficient -selection "name PO4 and resid [lindex $lresid $j]" -msd range -interval_from $i -interval_to [expr $i+$stride] -interval_stride 1 -from $wind1 -to $wind2 -step $step -alongz 0 -remove_drift 0]
 
-		set pippo [lindex [lindex $msd 1] 1]
+		set pippo [lindex [lindex $msd 1] 0]
 
 		set matrix($k,$l) [expr {$matrix($k,$l) + $pippo}]
 		incr pop($k,$l)
