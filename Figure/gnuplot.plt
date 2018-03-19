@@ -1,4 +1,3 @@
-#!/bin/bash
 set terminal postscript enhanced size 6in,6in
 set output 'MAP.ps'
 
