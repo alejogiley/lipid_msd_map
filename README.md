@@ -41,14 +41,14 @@ For a detailed explanation of the meaning of each command term see the appropria
 
 Resuts are printed in files ```MSD.dat``` for the lipid MSD map, and and ```PRO.dat``` for the grid mapped protein atoms. 
 
-A postcript and a TIFF figure can be generated running these commands at the Figure directory:
+A postcript and a PNG figure can be generated running these commands at the Figure directory:
 
     gnuplot gnuplot.plt
-    convert -density 300 MAP.ps -geometry 900x900 -rotate 90 MAP.tiff
+    convert -density 300 MAP.ps -geometry 900x900 -rotate 90 MAP.png
 
 ## Screenshot
 
-![MAP.tiff](Figure/MAP.tiff)
+![MAP.png](Figure/MAP.png)
     
     
 
